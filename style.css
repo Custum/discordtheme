@@ -1,0 +1,100 @@
+:root {
+--background-image: url('https://www.chromethemer.com/download/hd-wallpapers/alien-blue-3840x2160.jpg');
+--hover-color: #05b5fa;
+--color: rgb(141, 231, 195);
+--channel-color: #82d1f0;
+--scrollbar: #00b7ff;
+--channel-text-selected: #f36c6c;
+--channel-unread: #23eb6c;
+--channel-muted: #4157d4;
+}
+
+
+.theme-dark {
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-secondary-alt: transparent;
+  --background-tertiary: transparent;
+
+}
+
+#app-mount:before {
+  content: "";
+  background: var(--background-image);
+  background-position: center;
+  position: absolute;
+  height: calc(100vh);
+  width: calc(102vw);
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  }
+::-webkit-scrollbar {display: none}
+#app-mount .container-1D34oG, .container-1D34oG .nowPlayingColumn-2sl4cE{
+  background: transparent;}
+
+.modeUnread-1qO3K1 .name-23GUGE, .modeUnread-1qO3K1 .icon-1DeIlz{
+  color: var(--channel-unread);
+}
+.modeMuted-onO3r- .name-23GUGE, .modeMuted-onO3r- .icon-1DeIlz{
+  color: var(--channel-muted);
+}
+.name-23GUGE, .icon-1DeIlz{
+  color: var(--channel);
+}
+.fontSize16Padding-3Wk7zP{
+  color: var(--channel-color);
+}
+.scrollableContainer-2NUZem{
+  background-color: #0051ff28;
+}
+.modeSelected-346R90 .icon-1DeIlz, .modeSelected-346R90 .name-23GUGE{
+  color: var(--channel-text-selected);
+}
+.header-2RyJ0Y{
+  color: var(--scrollbar);
+}
+.side-8zPYf6 .item-PXvHYJ{
+  color: var(--channel-color);
+}
+
+.overflow-WK9Ogt, .icon-2yIBmh, .membersGroup-v9BXpm,h5.size16-1P40sf{
+  color: var(--scrollbar);
+}
+
+.activityText-OW8WYb{
+  color: var(--channel-color);
+}
+
+.headerText-2F0828{
+  color: var(--scrollbar);
+}
+
+.nameAndDecorators-5FJ2dg{
+  color: var(--scrollbar);
+}
+
+#app-mount .premiumContainer-2Iux5m, .container-1r6BKw.themed-ANHk51{
+  background-color: transparent !important;
+}
+
+h1.name-1jkAdW, h3.title-29uC1r{
+  color: var(--scrollbar);
+}
+.topic-TCb_qw{
+  color: var(--scrollbar);
+}
+
+.activity-2myFBH,.text-3MU_QQ,.linkButtonIcon-Mlm5d6,.searchBar-6Kv8R2 .searchBarComponent-32dTOx,.icon-22AiRD,.emptyText-2zjpZr,.title-30qZAO{
+  color: var(--channel-color);
+}
+.side-8zPYf6 {
+  color: var(--channel-color);
+}
+.applicationStore-1pNvnv {
+    background: transparent !important;
+}
+.discordTag-2_tqUA .nameTag-m8r81H{
+  color: #05b5fa;
+}
+
